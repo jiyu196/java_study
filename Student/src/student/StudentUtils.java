@@ -15,4 +15,9 @@ public class StudentUtils {
 		return Integer.parseInt(nextLine(msg));   //nextint는 버퍼이슈때문에 사용안함
 		
 	}
+	
+	public static boolean nextConfirm(String msg) {
+		String s = nextLine(msg);
+		return s.equalsIgnoreCase("y") || s.equals("yes")
+	}
 }

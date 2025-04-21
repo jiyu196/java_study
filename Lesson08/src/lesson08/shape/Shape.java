@@ -12,7 +12,7 @@ public abstract class Shape {
 		return "넚이 : "+ area();
 	}
 	
-	public abstract double surfaceArea();
-	public abstract double volume();
+//	public abstract double surfaceArea();
+//	public abstract double volume();
 	}
 

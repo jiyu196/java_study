@@ -12,7 +12,7 @@ public class Cylinder extends Shape implements Shape3D {
 	Cylinder(Circle circle, int z) {
 		this.circle = circle;
 		this.z = z;
-	}s
+	}
 	public double area() {
 		return circle.area() * 2 + circle.circum() * z;
 	}

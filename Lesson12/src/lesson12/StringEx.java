@@ -76,13 +76,13 @@ public class StringEx {
 		System.out.println(str3);
 		
 		//문자열 > 문자 배열
-		char[] chs= str.toCharArray();
-		for(int i = 0; i < chs.length; i++) {
-//			System.out.println(chs[i]);
-		}
-		
-		//문자 배열 > 문자열
-		String str2 = new String(chs);
-		System.out.println(str2);
+//		char[] chs= str.toCharArray();
+//		for(int i = 0; i < chs.length; i++) {
+////			System.out.println(chs[i]);
+//		}
+//		
+//		//문자 배열 > 문자열
+//		String str2 = new String(chs);
+//		System.out.println(str2);
 	}
 }

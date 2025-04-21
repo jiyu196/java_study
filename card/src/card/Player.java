@@ -8,6 +8,7 @@ public class Player {
 
 	Player(String name) {
 		this.name = name;
+		
 	}
 	
 	public String toString() {
